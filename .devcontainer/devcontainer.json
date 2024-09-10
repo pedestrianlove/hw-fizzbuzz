@@ -5,6 +5,7 @@
   "shutdownAction": "stopCompose",
   "workspaceFolder": "/workspaces/cli",
   "dockerComposeFile": "compose.yaml",
+  "postCreateCommand": "bundle install",
 
   "customizations": {
     "vscode": {
