@@ -19,8 +19,15 @@
         "editor.fontSize": 18,
         "editor.minimap.enabled": false,
         "workbench.editorAssociations": {
-            "*.md": "markdown.preview.editor"
+          "*.md": "markdown.preview.editor"
         }
+      },
+      "[ruby]": {    
+        "editor.formatOnSave": false,    
+        "editor.tabSize": 2,    
+        "editor.insertSpaces": true,    
+        "files.trimTrailingWhitespace": true,    
+        "files.insertFinalNewline": true  
       }
     }
   }
